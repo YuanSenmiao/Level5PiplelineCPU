@@ -1,0 +1,39 @@
+Running: F:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/WorkSpace/ISE_workspace/CPU/level5/Test_CPU_isim_beh.exe -prj F:/WorkSpace/ISE_workspace/CPU/level5/Test_CPU_beh.prj work.Test_CPU work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/line_map.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/bit_map.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/VGA_SYNC.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/VGA_Print.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/Catch_clk.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/VGA.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/PCPU.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/Instruction_Memory.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/Data_Memory.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/Clock.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/CPU_NOIP.v" into library work
+Analyzing Verilog file "F:/WorkSpace/ISE_workspace/CPU/level5/Test_CPU.v" into library work
+Analyzing Verilog file "F:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Catch_clk
+Compiling module VGA_SYNC
+Compiling module line_map
+Compiling module bit_map
+Compiling module VGA_Print
+Compiling module VGA
+Compiling module PCPU
+Compiling module Clock
+Compiling module Data_Memory
+Compiling module Instruction_Memory
+Compiling module CPU_NOIP
+Compiling module Test_CPU
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable F:/WorkSpace/ISE_workspace/CPU/level5/Test_CPU_isim_beh.exe
+Fuse Memory Usage: 38432 KB
+Fuse CPU Usage: 1684 ms
